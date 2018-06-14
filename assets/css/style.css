@@ -87,19 +87,15 @@ a{
 h2{
     color: #4aaaa5;
     background-color: #ffffff;
-    position: fixed;
     font-family: Georgia;
     font-size: 24px;
-    top: 100px;
-    left: 225px;
-    width: 64.9%;
     height: 50px;
     padding-top: 12px;
     padding-left: 19px;
 }
 
 .divider{
-    position: fixed;
+    position: absolute;
     left: 240px;
     bottom: 500px;
     width: 64%;
@@ -107,14 +103,10 @@ h2{
     padding: 1px;
 }
 .section{
-    position: fixed;
-    top: 150px;
-    left: 225px;
-    width: 820px;
-    height: 300px;
     background-color: #ffffff;
     color: #777777;
     padding: 15px;
+    margin: 150px;
 }
 
 img{
@@ -340,6 +332,16 @@ label[for="Dallas Sports"]{
     bottom: 37px;
 }
 
-@media only screen and (max-width: 980px, 768px, 640px) {
+@media screen and (max-width: 768px) {
   
+.header {
+
+    width: 100%;
+}
+
 } 
+
+@media screen and (max-width: 768px) {
+
+
+}
