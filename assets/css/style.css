@@ -95,7 +95,7 @@ h2{
 }
 
 .divider{
-    position: absolute;
+    position: relative;
     left: 240px;
     bottom: 500px;
     width: 64%;
@@ -332,16 +332,30 @@ label[for="Dallas Sports"]{
     bottom: 37px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   
-.header {
+    body {
 
-    width: 100%;
-}
+        background-color: blue;
+    }
 
 } 
 
 @media screen and (max-width: 768px) {
+  
+    body {
+
+        background-color: red;
+    }
+
+} 
+
+@media screen and (max-width: 640px) {
+  
+    body {
+
+        background-color: green;
+    }
 
 
-}
+} 
